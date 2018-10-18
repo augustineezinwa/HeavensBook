@@ -1,0 +1,20 @@
+{
+  "name": "HeavensBook",
+  "version": "1.0.0",
+  "description": "An application where users can write exciting or crazy stories about their life experiences and feel free to share.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustineezinwa/HeavensBook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustineezinwa/HeavensBook/issues"
+  },
+  "homepage": "https://github.com/augustineezinwa/HeavensBook#readme"
+}
