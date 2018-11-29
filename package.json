@@ -6,7 +6,7 @@
   "scripts": {
     "start": "babel-node ./server/server.js",
     "nodestart": "nodemon --exec npm run start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-register tests"
   },
   "repository": {
     "type": "git",
@@ -20,17 +20,17 @@
   },
   "homepage": "https://github.com/augustineezinwa/HeavensBook#readme",
   "dependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-polyfill": "^6.26.0",
     "babel-preset-airbnb": "^2.5.3",
+    "chai": "^4.2.0",
     "cors": "^2.8.4",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
+    "mocha": "^5.2.0",
     "morgan": "^1.9.1",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.7",
     "pg": "^7.5.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.40.0"
